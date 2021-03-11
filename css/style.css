@@ -1,0 +1,261 @@
+/* BASE STYLES */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4vw;
+}
+
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+/* DEFAULTS */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    overflow: auto;
+}
+
+.wrap {
+    max-width: 1280px;
+    padding: 50px;
+    margin: auto;
+}
+
+
+
+/**** ALLPAGES ****/
+/** HEADER **/
+header {
+    background-image: url("../images/conference-hero.jpg");
+    text-align: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 70px;
+}
+header img {
+    margin: auto;
+    width: 120px;
+    border-radius: 50%;
+    border: solid white 5px;
+    padding: 3px;
+}
+
+
+/** FOOTER **/
+footer {
+    background-color: rgba(73, 88, 103, 0.9);
+}
+
+#copyright {
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/**** HOMEPAGE ****/
+
+.wrap a {
+    background-color: rgb(254, 95, 85);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.wrap a:hover {
+    background-color: red;
+}
+
+.three-Points {
+    background-image: url("../images/swirl.png");
+}
+
+.three-Points-section {
+    min-height: 400px;
+}
+
+.three-Points-section img {
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.threePointsimg img:hover {
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.threePointsimg {
+    width: 30%;
+    float: left;
+}
+
+.three-Points-text {
+    width: 60%;
+    float: left;
+}
+
+#three-Points-image-right {
+    float: right;
+}
+
+.what-to-expect {
+    background-color: rgba(189, 213, 234, 0.9);
+    padding-right: 20vw;
+    border-bottom: 1px dashed black;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(189, 213, 234, 0.9);
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+table, th, td {
+    padding: 20px;
+}
+
+.tableInfo {
+    background-color: white;
+    border: 5px solid rgba(189, 213, 234, 0.9);
+}
+
+.tableSubtitle {
+    border: 5px solid rgba(189, 213, 234, 0.4);
+    background-color: rgba(73, 88, 103, 0.9);
+    color: white;
+}
+
+/* SPEAKERS */
+
+#speakers h4 {
+    text-align: center;
+}
+
+.Day-one {
+    float: left;
+    width: 49%;
+    background-image: url("../images/swirl.png");
+    box-shadow: 1px 1px 3px 3px #ccc;
+    margin: 6px;
+}
+
+.Day-two {
+    float: right;
+    width: 49%;
+    background-image: url("../images/swirl.png");
+    border: none;
+    box-shadow: 1px 1px 3px 3px #ccc;
+    margin: 6px;
+}
+
+.day-speaker {
+    clear: both;
+    min-height: 200px;
+}
+
+.day-speaker-image img {
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.day-speaker-image {
+    width: 25%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.day-speaker-text {
+    width: 50%;
+    float: left;
+}
+
+
+/* GOBUY */
+
+.goBuy-section {
+    background-color: rgba(189, 213, 234, 0.7);
+    border-top: 1px dashed black;
+    width: 100%;
+}
+
+#go-buy {
+    text-align: center;
+    margin: auto;
+}
+
+/**** TICKETS ****/
+
+.tickets-forms {
+    text-align: center;
+    margin-top: 1vw;
+}
+
+#forms {
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: 80px;
+    background-image: url("../images/swirl.png");
+    border: 1px solid #e9e9e9;
+    box-shadow: 1px 1px 3px 3px #ccc;
+    margin-bottom: 15px;
+}
+
+.info label {
+    display: none;
+}
+
+.info input {
+    display: block;
+    margin: auto
+}
+
+.info1, info2 {
+    margin: 0.2vw;
+}
+
+.submit {
+    background-color: rgb(254, 95, 85);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.submit:hover {
+    background-color: red;
+}
